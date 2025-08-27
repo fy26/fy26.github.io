@@ -1,30 +1,30 @@
 var store = [{
-        "title": "Diffusiophoresis in complex electrolytes",
-        "excerpt":"Analytical and experimental studies of charged drops under concentration gradients; extension to interacting particles with adsorption/desorption chemistry shows nonlinear speed–flux relations due to modified Debye layers.      Outputs: JFM 852 (2018); JFM 865 (2019)   Relevance: Synthetic active particles; transport in porous/complex media  ","categories": [],
+        "title": "Diffusiophoresis in complex fluids",
+        "excerpt":"Chemical gradients provide an invisible but powerful way to transport microscopic objects. In this project, we explored how colloidal particles interact with solute gradients and discovered that such gradients can not only move individual particles but also organize collections of them into dynamic patterns. This mechanism, diffusiophoresis, arises because short-range...","categories": [],
         "tags": [],
         "url": "/projects/2019-diffusiophoresis/",
         "teaser": null
       },{
         "title": "Magnetized liquid-metal films for fusion devices",
-        "excerpt":"Linear-stability analyses of conductive films under strong magnetic fields show persistent instability for finite conductivity—contrasting with classical superconducting assumptions—implicating plasma-facing liquid metals in device design.      Outputs: NME (2019); JFE (2020)   Collab: Princeton Plasma Physics Laboratory  ","categories": [],
+        "excerpt":"Future fusion reactors may employ flowing liquid metals, such as lithium, to protect plasma-facing walls. These liquid films can absorb extreme heat loads, reduce material erosion, and improve plasma confinement. Yet their success depends critically on whether the films remain smooth and stable under the combined action of gravity, surface...","categories": [],
         "tags": [],
         "url": "/projects/2020-fusion-film-stability/",
         "teaser": null
       },{
-        "title": "Speech-driven aerosol transport",
-        "excerpt":"Flow-resolved modeling of localized person-to-person exposure yields distancing guidance that depends on both separation and interaction time; complements well-mixed models.      Outputs: PRFluids Rapid Comm. (Editors’ Suggestion), PNAS (2020)   Use case: Indoor risk assessment; policy-relevant mechanics  ","categories": [],
+        "title": "Speech-driven virus transport",
+        "excerpt":"This project was launched in the early months of the COVID-19 pandemic, when the world urgently needed to understand how everyday interactions contribute to airborne disease spread. While coughing and sneezing were recognized sources of risk, the role of ordinary conversation was far less clear. Our work revealed that normal...","categories": [],
         "tags": [],
         "url": "/projects/2020-speech-aerosols/",
         "teaser": null
       },{
         "title": "Thin-film singularity: formation and healing of annular films",
-        "excerpt":"Experiments + 1D modeling reveal universal thinning curves during dripping of viscous films forming annuli that rupture then heal. Predicts entrapped bubbles and satellite formation; agrees with measurements.      Output: PRL 124:224501 (2020)   Why it matters: Canonical interfacial-flow singularity with biomedical/industrial relevance  ","categories": [],
+        "excerpt":"When a viscous liquid thread breaks, classical fluid mechanics tells us to expect a cylindrical column that pinches into drops, a process described since Rayleigh. In this project, we uncovered a very different pathway: when a horizontal thin film drains, it does not form a column but rather an annular...","categories": [],
         "tags": [],
         "url": "/projects/2020-thin-film-singularity/",
         "teaser": null
       },{
-        "title": "Active healing in microtubule–motor networks",
-        "excerpt":"We show that overlapping diffusive boundary layers of motors define a geometric threshold for repair: V-shaped cracks heal below a critical opening angle and buckle open above it. A minimal elastic model coupled to active stresses predicts outcomes from geometry and activity. Built: Complex-fluids simulation + minimal elastic model Findings:...","categories": [],
+        "title": "Active healing of microtubule–motor networks",
+        "excerpt":"Cytoskeletal networks are not only dynamic but also remarkably resilient: they can repair structural defects and restore function after damage. Yet the mechanisms of self-healing remain largely unknown. In this project, we used the light-activated microtubule–motor system to uncover how networks autonomously repair cracks and gaps. By projecting defined geometries...","categories": [],
         "tags": [],
         "url": "/projects/2024-active-healing/",
         "teaser": null
@@ -36,7 +36,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Image-based motility and stress inference in tissues",
-        "excerpt":"A non-equilibrium inference framework extracts velocity and stress from a single segmented image (no time-lapse). Applied to tumor microenvironments with spatial omics, immune cells—especially T cells—experience higher mechanical stress than tumor cells, suggesting a physical barrier to immune infiltration. New: Non-equilibrium extension beyond force-balance methods With: Spatially resolved, image-based analysis...","categories": [],
+        "excerpt":"Motivation: Cell motility is a defining feature of both tumor progression and immune defense. In tumors, cancer cells migrate along extracellular matrix fibers, invade surrounding tissues, and intravasate into blood vessels, leading to metastasis. Pro-tumor macrophages further promote this process by remodeling the matrix and establishing signaling loops that enhance...","categories": [],
         "tags": [],
         "url": "/projects/2025-motility-inference/",
         "teaser": null

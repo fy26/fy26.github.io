@@ -11,7 +11,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Image-based motility and stress inference in tissues - Fan Yang</title>
-<meta name="description" content="A non-equilibrium inference framework extracts velocity and stress  from a single segmented image (no time-lapse). Applied to tumor microenvironments with spatial omics, immune cells—especially T cells—experience higher mechanical stress than tumor cells, suggesting a physical barrier to immune infiltration.">
+<meta name="description" content="Motivation: Cell motility is a defining feature of both tumor progression and immune defense. In tumors, cancer cells migrate along extracellular matrix fibers, invade surrounding tissues, and intravasate into blood vessels, leading to metastasis. Pro-tumor macrophages further promote this process by remodeling the matrix and establishing signaling loops that enhance carcinoma  invasion. Conversely, effective immune responses rely on motile lymphocytes and macrophages that  infiltrate tissues, navigate dense tumor microenvironments, and engage with target cells.">
 
 
   <meta name="author" content="Fan Yang">
@@ -27,7 +27,7 @@
 <meta property="og:url" content="http://localhost:4000/projects/2025-motility-inference/">
 
 
-  <meta property="og:description" content="A non-equilibrium inference framework extracts velocity and stress  from a single segmented image (no time-lapse). Applied to tumor microenvironments with spatial omics, immune cells—especially T cells—experience higher mechanical stress than tumor cells, suggesting a physical barrier to immune infiltration.">
+  <meta property="og:description" content="Motivation: Cell motility is a defining feature of both tumor progression and immune defense. In tumors, cancer cells migrate along extracellular matrix fibers, invade surrounding tissues, and intravasate into blood vessels, leading to metastasis. Pro-tumor macrophages further promote this process by remodeling the matrix and establishing signaling loops that enhance carcinoma  invasion. Conversely, effective immune responses rely on motile lymphocytes and macrophages that  infiltrate tissues, navigate dense tumor microenvironments, and engage with target cells.">
 
 
 
@@ -35,7 +35,7 @@
 
 
 
-  <meta property="article:published_time" content="2025-08-26T23:23:12-07:00">
+  <meta property="article:published_time" content="2025-08-27T16:56:17-07:00">
 
 
 
@@ -122,7 +122,13 @@
               >Publications</a>
             </li><li class="masthead__menu-item">
               <a
-                href="/assets/pdfs/FanYang_CV.pdf"
+                href="/teaching/"
+                
+                
+              >Teaching</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/cv/"
                 
                 
               >CV</a>
@@ -152,8 +158,8 @@
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Image-based motility and stress inference in tissues">
-    <meta itemprop="description" content="A non-equilibrium inference framework extracts velocity and stress from a single segmented image (no time-lapse). Applied to tumor microenvironments with spatial omics, immune cells—especially T cells—experience higher mechanical stress than tumor cells, suggesting a physical barrier to immune infiltration.">
-    <meta itemprop="datePublished" content="2025-08-26T23:23:12-07:00">
+    <meta itemprop="description" content="Motivation: Cell motility is a defining feature of both tumor progression and immune defense.In tumors, cancer cells migrate along extracellular matrix fibers, invade surrounding tissues,and intravasate into blood vessels, leading to metastasis. Pro-tumor macrophages further promotethis process by remodeling the matrix and establishing signaling loops that enhance carcinoma invasion. Conversely, effective immune responses rely on motile lymphocytes and macrophages that infiltrate tissues, navigate dense tumor microenvironments, and engage with target cells.">
+    <meta itemprop="datePublished" content="2025-08-27T16:56:17-07:00">
     
 
     <div class="page__inner-wrap">
@@ -171,14 +177,34 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>A non-equilibrium inference framework extracts <strong>velocity</strong> and <strong>stress</strong> 
-from a single segmented image (no time-lapse). Applied to tumor microenvironments with spatial omics, immune cells—especially T cells—experience <strong>higher mechanical stress</strong> than tumor cells, suggesting a physical barrier to immune infiltration.</p>
+        <p><strong>Motivation</strong>: Cell motility is a defining feature of both tumor progression and immune defense.
+In tumors, cancer cells migrate along extracellular matrix fibers, invade surrounding tissues,
+and intravasate into blood vessels, leading to metastasis. Pro-tumor macrophages further promote
+this process by remodeling the matrix and establishing signaling loops that enhance carcinoma 
+invasion. Conversely, effective immune responses rely on motile lymphocytes and macrophages that 
+infiltrate tissues, navigate dense tumor microenvironments, and engage with target cells.</p>
 
-<ul>
-  <li><strong>New:</strong> Non-equilibrium extension beyond force-balance methods</li>
-  <li><strong>With:</strong> Spatially resolved, image-based analysis</li>
-  <li><strong>Next:</strong> Coupling with GRN/vertex models (e.g., YAP/TAZ) for predictive transitions</li>
-</ul>
+<p><strong>Ongoing work</strong>: To capture these dynamics, we are developing a non-equilibrium motility inference
+framework that extracts velocity fields and mechanical stresses from static histological images—addressing 
+a key gap in how we measure mechanical transitions in living systems. 
+Unlike conventional force inference methods that assume mechanical equilibrium, 
+our approach accounts for net forces and motion, revealing the inherently dynamic behaviors of 
+tissues. It also complements RNA velocity, which links transcript dynamics to cell fate transitions 
+and is most effective in developing embryos. By contrast, our mechanics-based framework directly connects 
+physical forces to motility, making it uniquely suited to tumor microenvironments where mechanical cues 
+strongly dictate cell behavior. It enables analysis of how velocity and force distributions vary across 
+cell types and regions without the need for time-lapse imaging or external perturbation. When integrated 
+with spatial transcriptomics data of a breast tumor (<a href="https://www.nature.com/articles/s41467-023-43458-x">A. Janesick et al., 2023</a>), as shown in Fig. 1, the method reveals that 
+vascular endothelial cells exhibit the highest velocities, consistent with active tumor vascularization. 
+Boxplot analysis further shows that immune cells are more motile than tumor cells, suggesting enhanced 
+immune response relative to tumor progression.</p>
+
+<p><img src="/assets/img/motility-inference-intro.png" alt="Healing of a microtubule–motor network" class="center" width="800px" />
+Figure 1: Motility inference from breast tumor images uncovers tumor progression and immune responses.</p>
+
+<hr />
+
+<h4 id="preprint-in-preparation">Preprint in preparation</h4>
 
         
       </section>
@@ -190,7 +216,7 @@ from a single segmented image (no time-lapse). Applied to tumor microenvironment
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-08-26T23:23:12-07:00">August 26, 2025</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-08-27T16:56:17-07:00">August 27, 2025</time></p>
 
       </footer>
 

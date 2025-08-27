@@ -5,5 +5,7 @@ main:
     url: /projects/
   - title: Publications
     url: /publications/
+  - title: Teaching
+    url: /teaching/
   - title: CV
-    url: /assets/pdfs/FanYang_CV.pdf
+    url: /cv/

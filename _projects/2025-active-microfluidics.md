@@ -1,11 +1,11 @@
 ---
 title: Programmable microfluidics with light-controlled active matter
-tagline: Optically composed flow fields for on-chip cell transport, sorting, and mixing
+tagline: Active-matter-driven programmable microfluidics for cell transport, sorting, and mixing
 year: 2025
-venue: Nature Materials (2025)
-thumb: /assets/img/active-microfluidics-thumb.jpg
-badges: ['Paper']
-links: [{'label': 'Paper', 'url': 'https://doi.org/10.1038/s41563-024-02090-w'}]
+#venue: Nature Materials (2025)
+thumb: /assets/img/active-microfluidics-thumb.png
+#badges: ['Paper']
+#links: [{'label': 'Paper', 'url': 'https://doi.org/10.1038/s41563-024-02090-w'}]
 weight: 10
 ---
 
@@ -27,7 +27,7 @@ sculpt micrometer-scale flows.
   </iframe>
 </div>
 
-Our key innovation is a strategy to tame the intrinsic chaos of active matter. 
+Our key innovation is a strategy to tame the intrinsic chaos of active matter and design a modular programming language. 
 By patterning light at carefully chosen distances, 
 we suppress unwanted nonlinear interactions and recover 
 linear superposition, allowing complex flows to be 
@@ -56,6 +56,9 @@ ultimately, bio-inspired strategies for materials
 design and diagnostics.
 
 
-- **Built:** Light-programmable motor–microtubule platform
-- **Enables:** Cell transport/isolation, cluster separation, vesicle division, active mixing
-- **My role:** Concept, theory/experiments, writing
+---
+
+### Publication & Highlights
+- 📄 F. Yang, S. Liu, H. J. Lee, R. Phillips and M. Thomson. "Dynamic Flow Control Through Active Matter Programming Language".  *Nature Materials* (2025). [HTML](https://doi.org/10.1038/s41563-024-02090-w)  
+- ✨ Highlighted by *Nature Materials* : "Illuminating active matter by harnessing light for modular flow control". [HTML](https://www.nature.com/articles/s41563-025-02181-2)  
+- ✨ Highlighted by *Nature Chemical Engineering*: "Programming fluid flow with biological active matter". [HTML](https://www.nature.com/articles/s44286-025-00200-2)

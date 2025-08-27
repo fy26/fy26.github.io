@@ -17,3 +17,5 @@ My research integrates theoretical models, quantitative experiments, spatial omi
 I have developed the Active Matter Programming Language for dynamic microfluidic control, uncovered self-healing mechanisms in cytoskeletal networks, and am currently building a Bayesian 
 inference framework to extract cell motility from images and identify motility–gene correlations driving tumor progression.
 Together, my work establishes a roadmap toward programmable biomechanical principles that can inspire new bioengineering platforms, diagnostics, and therapeutic strategies.
+
+![My research overview](/assets/img/overview.png){: .overview-img }

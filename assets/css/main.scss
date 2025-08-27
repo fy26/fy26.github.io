@@ -44,9 +44,135 @@ html { font-size: 17px; }
   height: 0;
   overflow: hidden;
   max-width: 100%;
+  margin-bottom: 1em;   /* ≈ one line of text */
 }
 .video-container iframe {
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
+}
+.overview-img {
+    display:block; margin:1rem auto 0;
+    max-width:500px; width:100%;
+    border-radius:12px;
+    box-shadow:0 6px 18px rgba(0,0,0,.08); }
+
+
+
+/* Two-column projects grid */
+body.projects-compact .page__content .cards,
+body.projects-compact .page__content .grid__wrapper {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  justify-content: center;
+}
+
+body.projects-compact .page__content .card {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+
+
+
+/* Responsive: collapse to 1 column on small screens */
+@media (max-width: 768px) {
+  body.projects-compact .page__content .cards,
+  body.projects-compact .page__content .grid__wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* === Keep card titles and blurbs the same height === */
+body.projects-compact .page__content .card .card__title,
+body.projects-compact .page__content .card .archive__item-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;         /* show up to 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 2.6em;              /* reserve space so rows align (≈2 lines) */
+  margin-bottom: .35rem;
+}
+
+body.projects-compact .page__content .card .card__excerpt,
+body.projects-compact .page__content .card .archive__item-excerpt,
+body.projects-compact .page__content .card .card__text,
+body.projects-compact .page__content .card p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;          /* show up to 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 3.9em;              /* ≈3 lines; keeps card heights even */
+  color: var(--text-muted, inherit);
+}
+
+/* Optional: keep the meta line (year/venue) to 1 line */
+body.projects-compact .page__content .card .card__meta,
+body.projects-compact .page__content .card .page__meta {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.center {
+  display: block;
+  margin: 1rem auto;
+}
+
+/* === Projects thumbnails: fixed height, no crop === */
+.projects-compact .archive__item-teaser,
+.projects-compact .archive__item-teaser::before {
+  padding: 0 !important;            /* kill theme's padding-based height */
+  height: 140px !important;         /* ← set your box height */
+  min-height: 140px !important;
+  display: block !important;
+}
+
+.projects-compact .archive__item-teaser {
+  background-size: contain !important;   /* show entire image */
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  border-radius: 6px;
+  background-color: #f6f6f6;
+  overflow: hidden;
+}
+
+/* if a real <img> is ever used inside the teaser */
+.projects-compact .archive__item-teaser img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  display: block !important;
+}
+
+/* ===== Final: Projects thumbnails — fixed height, NO CROP ===== */
+.projects-compact a.archive__item-teaser,
+.projects-compact .archive__item-teaser {
+  /* Kill theme’s padding-based height so ours applies */
+  padding: 0 !important;
+
+  /* Pick your exact box height (try 160–200 for a less “thin” look) */
+  height: 180px !important;
+  min-height: 180px !important;
+
+  /* Show the entire image, centered — no cropping */
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+
+  display: block !important;
+  border-radius: 6px;
+  background-color: #f6f6f6; /* subtle letterboxing color */
+  overflow: hidden;
+}
+
+/* If any layout renders an <img> in the teaser, keep it uncropped too */
+.projects-compact .archive__item-teaser img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  display: block !important;
 }
