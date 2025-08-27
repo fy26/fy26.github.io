@@ -30,7 +30,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Programmable microfluidics with light-controlled active matter",
-        "excerpt":"We discovered that when hydrodynamic interactions are spatially confined, flows from contractile microtubule–motor networks obey linear superposition. Treating rectangular light bars as composable primitives enabled a programming language for active matter that performs key microfluidic tasks without pumps or prefabricated channels. Built: Light-programmable motor–microtubule platform Enables: Cell transport/isolation, cluster separation,...","categories": [],
+        "excerpt":"A central challenge in microfluidics is that flows are typically controlled by pumps and rigidly fabricated channels, which are difficult to reconfigure once built. In contrast, living cells achieve exquisite spatial and temporal control of fluid transport by generating forces at the molecular scale. Inspired by this principle, we developed...","categories": [],
         "tags": [],
         "url": "/projects/2025-active-microfluidics/",
         "teaser": null

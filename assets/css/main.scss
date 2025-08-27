@@ -1,24 +1,52 @@
 ---
-# Empty front matter so Jekyll processes this file
 ---
 
-@import "minimal-mistakes/skins/default"; // or another skin if you prefer
+@import "minimal-mistakes/skins/default";
 @import "minimal-mistakes";
 
-// Custom tweaks
+/* Global base size (theme uses rem). Lower to ~15–16px if things look too large */
+html { font-size: 17px; }
+
+/* Center + narrow the homepage content */
 .home-center .page__content {
-  max-width: 760px;     // narrower column = more elegant
-  margin: 0 auto;       // center the copy
-  text-align: left;     // keep body text left (more readable)
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: left;
 }
 
+/* Smaller H1 on the homepage */
 .home-center .page__title {
-  font-size: 2rem;      // reduce big H1 if it feels too large
+  font-size: 2rem;   /* try 1.8rem if still large */
   line-height: 1.2;
   margin-bottom: .5rem;
 }
 
-.home-center .btn {
-  margin-right: .5rem;
-  margin-top: .25rem;
+/* Button spacing */
+.home-center .btn { margin-right: .5rem; margin-top: .25rem; }
+
+
+/* Make the author bio (short tagline under avatar) larger */
+.author__bio,
+.author__bio p {
+  font-size: 1rem;    /* default ~0.8rem */
+  line-height: 1.4;
+}
+
+/* Sidebar links (Email, Google Scholar, GitHub) */
+.author__urls-wrapper ul li a {
+  font-size: 1rem;    /* default ~0.8rem */
+}
+
+/* Responsive YouTube embeds */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
 }
