@@ -1,0 +1,17 @@
+<article class="card" style="margin:0 0 1rem 0;">
+  <a href="{{ p.url | relative_url }}">
+    {% if p.thumb %}
+      <img src="{{ p.thumb | relative_url }}" alt="{{ p.title }} thumbnail" />
+    {% endif %}
+    <h3 style="margin:.5rem 0">{{ p.title }}</h3>
+  </a>
+  {% if p.tagline %}<p style="margin:0">{{ p.tagline }}</p>{% endif %}
+  <p style="margin:.25rem 0 0 0; font-size:90%">
+    {% if p.venue %}<em>{{ p.venue }}</em>{% endif %}
+    {% if p.badges %}
+      {% for b in p.badges %}
+        <span class="label">{{ b }}</span>
+      {% endfor %}
+    {% endif %}
+  </p>
+</article>

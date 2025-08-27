@@ -1,0 +1,34 @@
+title: Fan Yang
+description: Biomechanics • Active matter • Spatial omics
+url: https://fy26.github.io
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+
+author:
+  name: Fan Yang
+  avatar: /assets/img/avatar.png
+  bio: "Biomechanics + active matter → programmable engineering and medical tools."
+  links:
+    - label: Email
+      icon: fas fa-envelope
+      url: mailto:fy2@caltech.edu
+    - label: Google Scholar
+      icon: fab fa-google
+      url: https://scholar.google.com/
+    - label: GitHub
+      icon: fab fa-github
+      url: https://github.com/fy26

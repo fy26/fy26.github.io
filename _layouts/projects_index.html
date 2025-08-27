@@ -1,0 +1,10 @@
+---
+layout: single
+---
+{% if page.intro %}<p>{{ page.intro }}</p>{% endif %}
+<div class="grid__wrapper">
+  {% assign items = site.projects | sort: "weight" %}
+  {% for p in items %}
+    {% include project-card.html p=p %}
+  {% endfor %}
+</div>

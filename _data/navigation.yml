@@ -1,0 +1,9 @@
+main:
+  - title: Home
+    url: /
+  - title: Research
+    url: /projects/
+  - title: Publications
+    url: /publications/
+  - title: CV
+    url: /assets/pdfs/FanYang_CV.pdf
