@@ -23,14 +23,20 @@ defaults:
 author:
   name: Fan Yang
   avatar: /assets/img/avatar.png
-  bio: "Biomechanics + active matter → programmable engineering and medical tools."
+  bio: "Biomechanics + active matter → programmable engineering and medical platforms."
   links:
     - label: Email
       icon: fas fa-envelope
       url: mailto:fy2@caltech.edu
     - label: Google Scholar
       icon: fab fa-google
-      url: https://scholar.google.com/
+      url: https://scholar.google.com/citations?user=DGkWTvIAAAAJ&hl=en
     - label: GitHub
       icon: fab fa-github
       url: https://github.com/fy26
+
+# Add a default so pages can turn on the author sidebar easily
+defaults:
+  - scope: { path: "" }
+    values:
+      layout: single

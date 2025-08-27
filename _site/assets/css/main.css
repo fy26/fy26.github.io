@@ -5105,5 +5105,21 @@ body {
     height: 1px !important;
   }
 }
+.home-center .page__content {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.home-center .page__title {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.home-center .btn {
+  margin-right: 0.5rem;
+  margin-top: 0.25rem;
+}
 
 /*# sourceMappingURL=main.css.map */

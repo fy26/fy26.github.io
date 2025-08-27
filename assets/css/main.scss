@@ -1,0 +1,24 @@
+---
+# Empty front matter so Jekyll processes this file
+---
+
+@import "minimal-mistakes/skins/default"; // or another skin if you prefer
+@import "minimal-mistakes";
+
+// Custom tweaks
+.home-center .page__content {
+  max-width: 760px;     // narrower column = more elegant
+  margin: 0 auto;       // center the copy
+  text-align: left;     // keep body text left (more readable)
+}
+
+.home-center .page__title {
+  font-size: 2rem;      // reduce big H1 if it feels too large
+  line-height: 1.2;
+  margin-bottom: .5rem;
+}
+
+.home-center .btn {
+  margin-right: .5rem;
+  margin-top: .25rem;
+}
