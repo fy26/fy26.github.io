@@ -1,5 +1,5 @@
 ---
-title: Thin-film singularity: formation and healing of annular films
+title: "Thin-film singularity: formation and healing of annular films"
 tagline: Universal thinning dynamics and bubble entrainment in healed threads
 year: 2020
 venue: PRL 2020

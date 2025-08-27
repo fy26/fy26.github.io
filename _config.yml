@@ -3,9 +3,11 @@ description: Biomechanics • Active matter • Spatial omics
 url: https://fy26.github.io
 remote_theme: mmistakes/minimal-mistakes
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-include-cache
 
 collections:
   projects:
