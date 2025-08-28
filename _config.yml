@@ -40,13 +40,13 @@ author:
       url: https://github.com/fy26
 
 # Optional: enable academicons for Google Scholar icon
-#(Place this in your _config.yml if you want the Scholar logo)
-minimal_mistakes_skin: default
-analytics: null
-theme settings:
-  author_profile: true
-  footer:
-    links:
-      - label: Google Scholar
-        icon: ai ai-google-scholar
-        url: https://scholar.google.com/citations?user=DGkWTvIAAAAJ&hl=en
+##(Place this in your _config.yml if you want the Scholar logo)
+#minimal_mistakes_skin: default
+#analytics: null
+#theme settings:
+#  author_profile: true
+#  footer:
+#    links:
+#      - label: Google Scholar
+#        icon: ai ai-google-scholar
+#        url: https://scholar.google.com/citations?user=DGkWTvIAAAAJ&hl=en
