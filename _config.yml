@@ -1,7 +1,10 @@
 title: Fan Yang
 description: Biomechanics • Active matter • Spatial omics
-url: https://fy26.github.io
+url: "https://fy26.github.io"
+baseurl: ""
+
 remote_theme: mmistakes/minimal-mistakes
+
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
@@ -29,14 +32,20 @@ author:
       icon: fas fa-envelope
       url: mailto:fy2@caltech.edu
     - label: Google Scholar
-      icon: fab fa-google
+      icon: ai ai-google-scholar      # nicer icon if you enable academicons
       url: https://scholar.google.com/citations?user=DGkWTvIAAAAJ&hl=en
     - label: GitHub
       icon: fab fa-github
       url: https://github.com/fy26
 
-# Add a default so pages can turn on the author sidebar easily
-defaults:
-  - scope: { path: "" }
-    values:
-      layout: single
+# Optional: enable academicons for Google Scholar icon
+# (Place this in your _config.yml if you want the Scholar logo)
+# minimal_mistakes_skin: default
+# analytics: null
+# theme settings:
+#   author_profile: true
+#   footer:
+#     links:
+#       - label: Google Scholar
+#         icon: ai ai-google-scholar
+#         url: https://scholar.google.com/citations?user=DGkWTvIAAAAJ&hl=en
