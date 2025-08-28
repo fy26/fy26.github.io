@@ -27,6 +27,13 @@ sculpt micrometer-scale flows.
   </iframe>
 </div>
 
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/hIpYuKrnEfU" 
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+  </iframe>
+</div>
+
 Our key innovation is a strategy to tame the intrinsic chaos of active matter and design a modular programming language. 
 By patterning light at carefully chosen distances, 
 we suppress unwanted nonlinear interactions and recover 
