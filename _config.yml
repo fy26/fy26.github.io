@@ -4,6 +4,7 @@ url: "https://fy26.github.io"
 baseurl: ""
 
 remote_theme: mmistakes/minimal-mistakes
+academicons: true
 
 plugins:
   - jekyll-remote-theme
@@ -32,7 +33,7 @@ author:
       icon: fas fa-envelope
       url: mailto:fy2@caltech.edu
     - label: Google Scholar
-      icon: ai ai-google-scholar      # nicer icon if you enable academicons
+      icon: ai ai-google-scholar
       url: https://scholar.google.com/citations?user=DGkWTvIAAAAJ&hl=en
     - label: GitHub
       icon: fab fa-github
