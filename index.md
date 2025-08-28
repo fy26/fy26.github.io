@@ -5,8 +5,8 @@ author_profile: true   # ← shows the avatar + bio in a left sidebar
 classes: home-center  # ← we'll style this below to center and size nicely
 ---
 
-I am a postdoctoral scholar in Biology and Biological Engineering at Caltech, where I work with Prof. Matt Thomson. 
-I earned my PhD in Mechanical and Aerospace Engineering at Princeton University with Prof. Howard A. Stone, where I studied 
+I am a postdoctoral scholar in Biology and Biological Engineering at Caltech, where I work with [Prof. Matt Thomson](https://thomsonlab.caltech.edu/). 
+I earned my PhD in Mechanical and Aerospace Engineering at Princeton University with [Prof. Howard A. Stone](https://stonelab.princeton.edu/), where I studied 
 interfacial flows and active matter. I completed my B.E. in Mechanical Engineering at Tsinghua University. 
 My academic path blends a foundation in mechanics with quantitative biology, giving me a unique vantage point to tackle problems 
 at the interface of engineering and life sciences.
