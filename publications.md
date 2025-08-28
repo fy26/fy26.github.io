@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Publications
+permalink: /publications/
 ---
 
 [📄 View full list on Google Scholar](https://scholar.google.com/citations?user=DGkWTvIAAAAJ&hl=en)
