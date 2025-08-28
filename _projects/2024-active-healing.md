@@ -6,7 +6,7 @@ tagline: Geometry- and stress-controlled repair with a bifurcation in healing ou
 thumb: /assets/img/active-healing-thumb.png
 #badges: ['Preprint']
 #links: [{'label': 'Preprint', 'url': 'https://arxiv.org/abs/2407.00842'}]
-weight: 20
+weight: 30
 ---
 
 Cytoskeletal networks are not only dynamic but also remarkably resilient: 

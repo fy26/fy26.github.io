@@ -4,7 +4,7 @@ tagline: Extract cell velocity and stress from static segmented images
 #year: 2025
 #venue: In preparation
 thumb: /assets/img/motility-inference-thumb.png
-weight: 30
+weight: 20
 ---
 
 **Motivation**: Cell motility is a defining feature of both tumor progression and immune defense.
