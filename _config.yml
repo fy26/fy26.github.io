@@ -33,7 +33,7 @@ author:
       icon: fas fa-envelope
       url: mailto:fy2@caltech.edu
     - label: Google Scholar
-      icon: ai ai-google-scholar
+      icon: fas fa-graduation-cap
       url: https://scholar.google.com/citations?user=DGkWTvIAAAAJ&hl=en
     - label: GitHub
       icon: fab fa-github
