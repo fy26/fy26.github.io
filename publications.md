@@ -11,6 +11,7 @@ permalink: /publications/
 1. **F. Yang**, S. Liu, H. Wang, H. J. Lee, R. Phillips, and M. Thomson. Active healing of microtubule–motor networks. Arxiv (2025). [arXiv:2407.00842](https://arxiv.org/abs/2407.00842)
 1. S. Liu, R. W. Pan, H. J. Lee, S. Shadkhoo, **F. Yang**, C. Li, Z. Qu, R. Phillips and M. Thomson. Force propagation in active cytoskeletal networks. Arxiv (2024). [arXiv:2401.04217](https://arxiv.org/abs/2401.04217)
 1. Z. Qu, D. Schildknecht, S. Shadkhoo, E. Amaya, J. Jiang, H. J. Lee, D. Larios, **F. Yang**, R. Phillips, and M. Thomson. Persistent fluid flows defined by active matter boundaries. *Communications Physics* (2021).  [HTML](https://www.nature.com/articles/s42005-021-00703-3)
+1. **F. Yang**. Interfacial flows in active matter and energy processes. Princeton University, 2021. [HTML](https://www.proquest.com/openview/d59c6fa1d8a0cfaa52e245eb4d0fb965/1?pq-origsite=gscholar&cbl=18750&diss=y)
 1. **F. Yang**, A. A. Pahlavan, S. Mendez, M. Abkarian, and H. A. Stone. Towards improved social distancing guidelines: space and time dependence of virus transmission from speech-driven aerosol transport between two individuals. *Physical Review Fluids* (2020). [HTML](https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.5.122501)
 - ✨Selected as *Editors’ Suggestions*.
 1. M. Abkarian, S. Mendez, N. Xue, **F. Yang**, and  H. A. Stone. Speech can produce jet-like transport relevant to asymptomatic spreading of virus. *PNAS* (2020). [HTML](https://www.pnas.org/doi/10.1073/pnas.2012156117)

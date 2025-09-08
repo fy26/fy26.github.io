@@ -69,3 +69,4 @@ design and diagnostics.
 - 📄 F. Yang, S. Liu, H. J. Lee, R. Phillips and M. Thomson. "Dynamic Flow Control Through Active Matter Programming Language".  *Nature Materials* (2025). [HTML](https://doi.org/10.1038/s41563-024-02090-w)  
 - ✨ Highlighted by *Nature Materials* : "Illuminating active matter by harnessing light for modular flow control". [HTML](https://www.nature.com/articles/s41563-025-02181-2)  
 - ✨ Highlighted by *Nature Chemical Engineering*: "Programming fluid flow with biological active matter". [HTML](https://www.nature.com/articles/s44286-025-00200-2)
+- ✨ Reported by *Caltech News*: "First Programming Language for Active Material". [HTML](https://www.caltech.edu/about/news/first-programming-language-for-active-material)
