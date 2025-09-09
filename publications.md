@@ -7,7 +7,7 @@ permalink: /publications/
 [📄 View full list on Google Scholar](https://scholar.google.com/citations?user=DGkWTvIAAAAJ&hl=en)
 
 1. **F. Yang**, S. Liu, H. J. Lee, R. Phillips, and M. Thomson. Dynamic flow control through active matter programming language. *Nature Materials* (2025). [HTML](https://doi.org/10.1038/s41563-024-02090-w)
-- ✨Featured by [*Nature Materials*](https://www.nature.com/articles/s41563-025-02181-2) and [*Nature Chemical Engineering*](https://www.nature.com/articles/s44286-025-00200-2).
+- ✨Featured by [*Nature Materials*](https://www.nature.com/articles/s41563-025-02181-2) , [*Nature Chemical Engineering*](https://www.nature.com/articles/s44286-025-00200-2), and [*Caltech News*](https://www.caltech.edu/about/news/first-programming-language-for-active-material)
 1. **F. Yang**, S. Liu, H. Wang, H. J. Lee, R. Phillips, and M. Thomson. Active healing of microtubule–motor networks. Arxiv (2025). [arXiv:2407.00842](https://arxiv.org/abs/2407.00842)
 1. S. Liu, R. W. Pan, H. J. Lee, S. Shadkhoo, **F. Yang**, C. Li, Z. Qu, R. Phillips and M. Thomson. Force propagation in active cytoskeletal networks. Arxiv (2024). [arXiv:2401.04217](https://arxiv.org/abs/2401.04217)
 1. Z. Qu, D. Schildknecht, S. Shadkhoo, E. Amaya, J. Jiang, H. J. Lee, D. Larios, **F. Yang**, R. Phillips, and M. Thomson. Persistent fluid flows defined by active matter boundaries. *Communications Physics* (2021).  [HTML](https://www.nature.com/articles/s42005-021-00703-3)
