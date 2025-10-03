@@ -37,4 +37,4 @@ that dynamically repair themselves.
 
 
 ### Publication 
-- 📄  F. Yang, S. Liu, H. Wang, H. J. Lee, R. Phillips, and M. Thomson. Geometry-dependent defect merging induces bifurcated dynamics in active networks *Physical Review Research* (2025). [HTML](https://journals.aps.org/prresearch/abstract/10.1103/m8cb-gf1q)
+- 📄  F. Yang, S. Liu, H. Wang, H. J. Lee, R. Phillips, and M. Thomson. Geometry-dependent defect merging induces bifurcated dynamics in active networks. *Physical Review Research* (2025). [HTML](https://journals.aps.org/prresearch/abstract/10.1103/m8cb-gf1q)
